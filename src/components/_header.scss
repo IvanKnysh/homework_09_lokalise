@@ -1,0 +1,49 @@
+.header {
+	position: sticky;
+	top: 0;
+	padding: 25px 0;
+	border-bottom: 1px solid #ccc;
+	background-color: $light;
+	z-index: 9;
+	.container {
+		padding: 0;
+	}
+	.flx {
+		display: flex;
+		align-items: center;
+		a.logo {
+			img {
+				display: block;
+				margin-right: 51px;
+			}
+		}
+		ul {
+			display: flex;
+			li {
+				a {
+					display: block;
+					color: $dark;
+					font-size: 0.938rem;
+					line-height: 20px;
+					text-decoration: none;
+					margin-right: 57px;
+				}
+				&:nth-last-child(1) {
+					a {
+						margin-right: 0;
+					}
+				}
+			}
+		}
+		button {
+			&.login {
+				@include button-transparent(120px, 45px);
+				margin-left: auto;
+			}
+			&.try-free {
+				@include button-filled(120px, 45px);
+				margin-left: 10px;
+			}
+		}
+	}
+}

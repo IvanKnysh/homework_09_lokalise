@@ -1,0 +1,17 @@
+@mixin button-filled($width, $height) {
+	width: $width;
+	height: $height;
+	background-color: $main;
+	border: none;
+	color: $light;
+	font-size: 1rem;
+}
+
+@mixin button-transparent($width, $height) {
+	width: $width;
+	height: $height;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	background: transparent;
+	color: $dark;
+	font-size: 1rem;
+}

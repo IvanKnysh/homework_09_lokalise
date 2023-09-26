@@ -24,6 +24,12 @@ ul {
   list-style: none;
 }
 
+button {
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
 html {
   font-size: 16px;
 }
@@ -39,4 +45,56 @@ body {
   max-width: 1330px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: #ffffff;
+  z-index: 9;
+}
+.header .container {
+  padding: 0;
+}
+.header .flx {
+  display: flex;
+  align-items: center;
+}
+.header .flx a.logo img {
+  display: block;
+  margin-right: 51px;
+}
+.header .flx ul {
+  display: flex;
+}
+.header .flx ul li a {
+  display: block;
+  color: #000000;
+  font-size: 0.938rem;
+  line-height: 20px;
+  text-decoration: none;
+  margin-right: 57px;
+}
+.header .flx ul li:nth-last-child(1) a {
+  margin-right: 0;
+}
+.header .flx button.login {
+  width: 120px;
+  height: 45px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: transparent;
+  color: #000000;
+  font-size: 1rem;
+  margin-left: auto;
+}
+.header .flx button.try-free {
+  width: 120px;
+  height: 45px;
+  background-color: #ff6336;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-left: 10px;
 }/*# sourceMappingURL=app.css.map */
