@@ -1,0 +1,41 @@
+.hero {
+	padding-top: 129px;
+	padding-bottom: 172px;
+	.flx {
+		display: flex;
+		align-items: center;
+		.block {
+			h1 {
+				font-size: 4.063rem;
+				font-weight: 600;
+				line-height: 70px;
+				margin-bottom: 51px;
+			}
+			h2 {
+				font-size: 25px;
+				line-height: 35px;
+				margin-bottom: 50px;
+			}
+			p {
+				font-size: 0.938rem;
+				line-height: 25px;
+			}
+			.bth-wrapper {
+				display: flex;
+				margin-bottom: 25px;
+				button {
+					&.try-free {
+						@include button-filled(160px, 60px);
+						margin-right: 10px;
+					}
+					&.demo {
+						@include button-transparent(160px, 60px);
+					}
+				}
+			}
+			img {
+				display: block;
+			}
+		}
+	}
+}

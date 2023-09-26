@@ -18,6 +18,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-weight: 400;
 }
 
 ul {
@@ -25,6 +26,7 @@ ul {
 }
 
 button {
+  display: block;
   outline: none;
   cursor: pointer;
   font-weight: 600;
@@ -36,8 +38,8 @@ html {
 
 body {
   font-family: "Graphik", sans-serif;
-  font-weight: 400;
   font-size: 1rem;
+  color: #000000;
 }
 
 .container {
@@ -97,4 +99,52 @@ body {
   color: #ffffff;
   font-size: 1rem;
   margin-left: 10px;
+}
+
+.hero {
+  padding-top: 129px;
+  padding-bottom: 172px;
+}
+.hero .flx {
+  display: flex;
+  align-items: center;
+}
+.hero .flx .block h1 {
+  font-size: 4.063rem;
+  font-weight: 600;
+  line-height: 70px;
+  margin-bottom: 51px;
+}
+.hero .flx .block h2 {
+  font-size: 25px;
+  line-height: 35px;
+  margin-bottom: 50px;
+}
+.hero .flx .block p {
+  font-size: 0.938rem;
+  line-height: 25px;
+}
+.hero .flx .block .bth-wrapper {
+  display: flex;
+  margin-bottom: 25px;
+}
+.hero .flx .block .bth-wrapper button.try-free {
+  width: 160px;
+  height: 60px;
+  background-color: #ff6336;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+.hero .flx .block .bth-wrapper button.demo {
+  width: 160px;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: transparent;
+  color: #000000;
+  font-size: 1rem;
+}
+.hero .flx .block img {
+  display: block;
 }/*# sourceMappingURL=app.css.map */
