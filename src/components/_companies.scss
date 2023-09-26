@@ -1,0 +1,21 @@
+.companies {
+	padding-top: 108px;
+	padding-bottom: 104px;
+	background-color: $secondary;
+	h2 {
+		text-align: center;
+		font-size: 3.125rem;
+		font-weight: 600;
+		line-height: 60px;
+		margin-bottom: 70px;
+	}
+	.logos-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 20px 0 27px;
+		img {
+			display: block;
+		}
+	}
+}
