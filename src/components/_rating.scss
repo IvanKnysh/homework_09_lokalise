@@ -1,0 +1,34 @@
+.rating {
+	padding-top: 79px;
+	padding-bottom: 80px;
+	background-color: $secondary-light;
+	.flx-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		.block {
+			display: flex;
+			align-items: center;
+			img {
+				display: block;
+				margin-right: 67px;
+			}
+			h2 {
+				font-size: 2.188rem;
+				font-weight: 600;
+				line-height: 50px;
+			}
+		}
+		.rating-logos {
+			display: flex;
+			align-items: center;
+			border-left: 1px solid $dark;
+			min-height: 168px;
+			padding-right: 62px;
+			img {
+				display: block;
+				margin-left: 70px;
+			}
+		}
+	}
+}

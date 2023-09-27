@@ -314,6 +314,7 @@ body {
 }
 .quote .flx-wrapper {
   display: flex;
+  justify-content: space-between;
 }
 .quote .flx-wrapper .block h3 {
   font-size: 1.875rem;
@@ -334,4 +335,39 @@ body {
 }
 .quote .flx-wrapper .img-wrapper img {
   display: block;
+}
+
+.rating {
+  padding-top: 79px;
+  padding-bottom: 80px;
+  background-color: #dabc98;
+}
+.rating .flx-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rating .flx-wrapper .block {
+  display: flex;
+  align-items: center;
+}
+.rating .flx-wrapper .block img {
+  display: block;
+  margin-right: 67px;
+}
+.rating .flx-wrapper .block h2 {
+  font-size: 2.188rem;
+  font-weight: 600;
+  line-height: 50px;
+}
+.rating .flx-wrapper .rating-logos {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #000000;
+  min-height: 168px;
+  padding-right: 62px;
+}
+.rating .flx-wrapper .rating-logos img {
+  display: block;
+  margin-left: 70px;
 }/*# sourceMappingURL=app.css.map */
