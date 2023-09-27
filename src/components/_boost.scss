@@ -19,13 +19,11 @@
 				}
 			}
 			h3 {
-				font-size: 1.875rem;
-				font-weight: 600;
-				line-height: 40px;
+				@include heading(1.875rem, 40px);
 				margin-bottom: 34px;
 			}
 			p {
-				@include description;
+				@include description(1.25rem, 30px);
 				margin-bottom: 25px;
 			}
 			a {

@@ -14,19 +14,13 @@
 		.block {
 			width: calc((100% / 3) - 74px);
 			h3 {
-				font-size: 1.563rem;
+				@include heading(1.563rem, 35px);
 				text-align: center;
-				font-weight: 600;
-				line-height: 35px;
 				margin-bottom: 20px;
 			}
 			p {
-				font-size: 1.125rem;
+				@include description(1.25rem, 25px);
 				text-align: center;
-				line-height: 25px;
-				span {
-					text-decoration: underline;
-				}
 			}
 			img {
 				display: block;

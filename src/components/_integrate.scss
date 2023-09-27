@@ -6,9 +6,8 @@
 		text-align: center;
 	}
 	p {
+		@include description(1.563rem, 30px);
 		text-align: center;
-		font-size: 1.563rem;
-		line-height: 30px;
 		margin-bottom: 25px;
 	}
 	img {

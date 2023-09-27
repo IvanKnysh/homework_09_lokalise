@@ -18,15 +18,14 @@
 
 @mixin heading($fontSize, $lineHeight) {
 	font-size: $fontSize;
-	// font-size: 3.125rem;
 	font-weight: 600;
 	line-height: $lineHeight;
 }
 
-@mixin description {
-	font-size: 1.25rem;
+@mixin description($fontSize, $lineHeight) {
+	font-size: $fontSize;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: $lineHeight;
 	span {
 		text-decoration: underline;
 	}
