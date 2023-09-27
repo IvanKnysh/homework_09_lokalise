@@ -169,4 +169,55 @@ body {
 }
 .companies .logos-wrapper img {
   display: block;
+}
+
+.features {
+  padding-top: 90px;
+  padding-bottom: 150px;
+}
+.features .flx-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 250px;
+}
+.features .flx-wrapper .block {
+  width: 50%;
+}
+.features .flx-wrapper .block h2 {
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 60px;
+  margin-bottom: 30px;
+}
+.features .flx-wrapper .block p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.features .flx-wrapper .block p span {
+  text-decoration: underline;
+}
+.features .flx-wrapper .block a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+  line-height: 30px;
+}
+.features .flx-wrapper .block img {
+  display: block;
+  width: 100%;
+}
+.features .flx-wrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.features .flx-wrapper:nth-child(even) .block:nth-child(1) {
+  padding-left: 138px;
+}
+.features .flx-wrapper:nth-child(odd) .block:nth-child(1) {
+  padding-right: 138px;
+}
+.features .flx-wrapper:nth-last-child(1) {
+  margin-bottom: 0;
 }/*# sourceMappingURL=app.css.map */
