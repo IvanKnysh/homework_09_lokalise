@@ -155,10 +155,10 @@ body {
   background-color: #ff9c7d;
 }
 .companies h2 {
-  text-align: center;
   font-size: 3.125rem;
   font-weight: 600;
   line-height: 60px;
+  text-align: center;
   margin-bottom: 70px;
 }
 .companies .logos-wrapper {
@@ -220,4 +220,44 @@ body {
 }
 .features .flx-wrapper:nth-last-child(1) {
   margin-bottom: 0;
+}
+
+.localize {
+  padding-top: 120px;
+  padding-bottom: 147px;
+  background-color: #fff8e4;
+}
+.localize h2 {
+  font-size: 3.125rem;
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  margin-bottom: 79px;
+}
+.localize .flx-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 57px 110px;
+}
+.localize .flx-wrapper .block {
+  width: calc(33.3333333333% - 74px);
+}
+.localize .flx-wrapper .block h3 {
+  font-size: 1.563rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.localize .flx-wrapper .block p {
+  font-size: 1.125rem;
+  text-align: center;
+  line-height: 25px;
+}
+.localize .flx-wrapper .block p span {
+  text-decoration: underline;
+}
+.localize .flx-wrapper .block img {
+  display: block;
+  margin: 21px auto 26px;
 }/*# sourceMappingURL=app.css.map */

@@ -8,9 +8,7 @@
 		.block {
 			width: 50%;
 			h2 {
-				font-size: 3.125rem;
-				font-weight: 600;
-				line-height: 60px;
+				@include heading;
 				margin-bottom: 30px;
 			}
 			p {

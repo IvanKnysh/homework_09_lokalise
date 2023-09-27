@@ -15,3 +15,9 @@
 	color: $dark;
 	font-size: 1rem;
 }
+
+@mixin heading {
+	font-size: 3.125rem;
+	font-weight: 600;
+	line-height: 60px;
+}
