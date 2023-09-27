@@ -4,6 +4,7 @@
 	background-color: $aqua;
 	.flx-wrapper {
 		display: flex;
+		justify-content: space-between;
 		.block {
 			h3 {
 				font-size: 1.875rem;
