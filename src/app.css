@@ -305,4 +305,33 @@ body {
   font-size: 20px;
   color: #000000;
   line-height: 30px;
+}
+
+.quote {
+  padding-top: 53px;
+  padding-bottom: 105px;
+  background-color: #c9e8f2;
+}
+.quote .flx-wrapper {
+  display: flex;
+}
+.quote .flx-wrapper .block h3 {
+  font-size: 1.875rem;
+  line-height: 40px;
+  padding-top: 10px;
+  margin-bottom: 23px;
+}
+.quote .flx-wrapper .block p {
+  font-size: 0.938rem;
+  line-height: 25px;
+  margin-bottom: 7px;
+}
+.quote .flx-wrapper .block img {
+  display: block;
+}
+.quote .flx-wrapper .img-wrapper {
+  padding-left: 60px;
+}
+.quote .flx-wrapper .img-wrapper img {
+  display: block;
 }/*# sourceMappingURL=app.css.map */

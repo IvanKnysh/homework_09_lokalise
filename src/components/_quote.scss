@@ -1,0 +1,30 @@
+.quote {
+	padding-top: 53px;
+	padding-bottom: 105px;
+	background-color: $aqua;
+	.flx-wrapper {
+		display: flex;
+		.block {
+			h3 {
+				font-size: 1.875rem;
+				line-height: 40px;
+				padding-top: 10px;
+				margin-bottom: 23px;
+			}
+			p {
+				font-size: 0.938rem;
+				line-height: 25px;
+				margin-bottom: 7px;
+			}
+			img {
+				display: block;
+			}
+		}
+		.img-wrapper {
+			padding-left: 60px;
+			img {
+				display: block;
+			}
+		}
+	}
+}
