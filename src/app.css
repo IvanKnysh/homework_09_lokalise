@@ -116,9 +116,13 @@ body {
   margin-bottom: 51px;
 }
 .hero .flx .block h2 {
-  font-size: 25px;
+  font-size: 1.563rem;
+  font-weight: 400;
   line-height: 35px;
   margin-bottom: 50px;
+}
+.hero .flx .block h2 span {
+  text-decoration: underline;
 }
 .hero .flx .block p {
   font-size: 0.938rem;
@@ -201,9 +205,9 @@ body {
 .features .flx-wrapper .block a {
   font-size: 1.25rem;
   font-weight: 600;
+  line-height: 30px;
   color: #000000;
   text-decoration: none;
-  line-height: 30px;
 }
 .features .flx-wrapper .block img {
   display: block;
@@ -244,15 +248,16 @@ body {
 }
 .localize .flx-wrapper .block h3 {
   font-size: 1.563rem;
-  text-align: center;
   font-weight: 600;
   line-height: 35px;
+  text-align: center;
   margin-bottom: 20px;
 }
 .localize .flx-wrapper .block p {
-  font-size: 1.125rem;
-  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
   line-height: 25px;
+  text-align: center;
 }
 .localize .flx-wrapper .block p span {
   text-decoration: underline;
@@ -270,7 +275,6 @@ body {
   font-size: 3.125rem;
   font-weight: 600;
   line-height: 60px;
-  text-align: center;
   margin-bottom: 84px;
 }
 .boost .flx-wrapper {
@@ -318,14 +322,22 @@ body {
 }
 .quote .flx-wrapper .block h3 {
   font-size: 1.875rem;
+  font-weight: 400;
   line-height: 40px;
   padding-top: 10px;
   margin-bottom: 23px;
 }
+.quote .flx-wrapper .block h3 span {
+  text-decoration: underline;
+}
 .quote .flx-wrapper .block p {
   font-size: 0.938rem;
+  font-weight: 400;
   line-height: 25px;
   margin-bottom: 7px;
+}
+.quote .flx-wrapper .block p span {
+  text-decoration: underline;
 }
 .quote .flx-wrapper .block img {
   display: block;
@@ -377,16 +389,20 @@ body {
   padding-bottom: 162px;
 }
 .integrate h2 {
-  text-align: center;
   font-size: 4.063rem;
   font-weight: 600;
   line-height: 75px;
+  text-align: center;
 }
 .integrate p {
-  text-align: center;
   font-size: 1.563rem;
+  font-weight: 400;
   line-height: 30px;
+  text-align: center;
   margin-bottom: 25px;
+}
+.integrate p span {
+  text-decoration: underline;
 }
 .integrate img {
   display: block;
@@ -400,4 +416,37 @@ body {
   color: #ffffff;
   font-size: 1rem;
   margin: auto;
+}
+
+.try-it-free {
+  padding-top: 119px;
+  padding-bottom: 161px;
+  background-color: #ff9c7d;
+}
+.try-it-free h2 {
+  font-size: 4.063rem;
+  font-weight: 600;
+  line-height: 75px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.try-it-free p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+.try-it-free p span {
+  text-decoration: underline;
+}
+.try-it-free button {
+  width: 160px;
+  height: 60px;
+  background-color: #ff6336;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  background-color: #000000;
+  margin: 0 auto;
 }/*# sourceMappingURL=app.css.map */

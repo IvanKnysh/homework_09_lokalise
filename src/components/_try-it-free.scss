@@ -1,0 +1,20 @@
+.try-it-free {
+	padding-top: 119px;
+	padding-bottom: 161px;
+	background-color: $secondary;
+	h2 {
+		@include heading(4.063rem, 75px);
+		text-align: center;
+		margin-bottom: 29px;
+	}
+	p {
+		@include description(1.25rem, 30px);
+		text-align: center;
+		margin-bottom: 54px;
+	}
+	button {
+		@include button-filled(160px, 60px);
+		background-color: $dark;
+		margin: 0 auto;
+	}
+}
