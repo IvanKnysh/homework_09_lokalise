@@ -16,10 +16,11 @@
 	font-size: 1rem;
 }
 
-@mixin heading {
-	font-size: 3.125rem;
+@mixin heading($fontSize, $lineHeight) {
+	font-size: $fontSize;
+	// font-size: 3.125rem;
 	font-weight: 600;
-	line-height: 60px;
+	line-height: $lineHeight;
 }
 
 @mixin description {

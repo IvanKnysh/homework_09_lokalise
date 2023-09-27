@@ -3,7 +3,7 @@
 	padding-bottom: 147px;
 	background-color: $primary;
 	h2 {
-		@include heading;
+		@include heading(3.125rem, 60px);
 		text-align: center;
 		margin-bottom: 79px;
 	}

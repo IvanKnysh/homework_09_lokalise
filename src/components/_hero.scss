@@ -6,9 +6,7 @@
 		align-items: center;
 		.block {
 			h1 {
-				font-size: 4.063rem;
-				font-weight: 600;
-				line-height: 70px;
+				@include heading(4.063rem, 70px);
 				margin-bottom: 51px;
 			}
 			h2 {

@@ -8,7 +8,7 @@
 		.block {
 			width: 50%;
 			h2 {
-				@include heading;
+				@include heading(3.125rem, 60px);
 				margin-bottom: 30px;
 			}
 			p {

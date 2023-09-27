@@ -3,7 +3,7 @@
 	padding-bottom: 104px;
 	background-color: $secondary;
 	h2 {
-		@include heading;
+		@include heading(3.125rem, 60px);
 		text-align: center;
 		margin-bottom: 70px;
 	}

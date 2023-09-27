@@ -2,10 +2,8 @@
 	padding-top: 169px;
 	padding-bottom: 162px;
 	h2 {
+		@include heading(4.063rem, 75px);
 		text-align: center;
-		font-size: 4.063rem;
-		font-weight: 600;
-		line-height: 75px;
 	}
 	p {
 		text-align: center;
