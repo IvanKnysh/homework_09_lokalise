@@ -370,4 +370,34 @@ body {
 .rating .flx-wrapper .rating-logos img {
   display: block;
   margin-left: 70px;
+}
+
+.integrate {
+  padding-top: 169px;
+  padding-bottom: 162px;
+}
+.integrate h2 {
+  text-align: center;
+  font-size: 4.063rem;
+  font-weight: 600;
+  line-height: 75px;
+}
+.integrate p {
+  text-align: center;
+  font-size: 1.563rem;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+.integrate img {
+  display: block;
+  margin: 0 auto 32px;
+}
+.integrate button {
+  width: 193px;
+  height: 60px;
+  background-color: #ff6336;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  margin: auto;
 }/*# sourceMappingURL=app.css.map */
