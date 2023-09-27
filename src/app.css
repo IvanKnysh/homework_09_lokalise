@@ -449,4 +449,99 @@ body {
   font-size: 1rem;
   background-color: #000000;
   margin: 0 auto;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+.footer .footer-general {
+  padding-top: 92px;
+  padding-bottom: 95px;
+  display: flex;
+}
+.footer .footer-general .block {
+  width: 300px;
+}
+.footer .footer-general .block h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 28px;
+}
+.footer .footer-general .block p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+.footer .footer-general .block p span {
+  text-decoration: underline;
+}
+.footer .footer-general .block a {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+.footer .footer-general .block img {
+  display: block;
+}
+.footer .footer-general .block img.case-studies {
+  margin-bottom: 31px;
+}
+.footer .footer-general .block img.spesialized {
+  margin-bottom: 11px;
+}
+.footer .footer-general .links-wrapper {
+  width: calc(100% - 300px);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 140px;
+}
+.footer .footer-general .links-wrapper .links-block {
+  max-width: 187px;
+}
+.footer .footer-general .links-wrapper .links-block h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 25px;
+  margin-bottom: 21px;
+}
+.footer .footer-general .links-wrapper .links-block a {
+  font-size: 0.938rem;
+  font-weight: 400;
+  line-height: 15px;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.footer .footer-general .links-wrapper .links-block a span {
+  text-decoration: underline;
+}
+.footer .footer-general .links-wrapper .links-block a:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.footer .footer-bottom {
+  display: flex;
+  align-items: center;
+  padding: 48px 0;
+  border-top: 1px solid #000000;
+}
+.footer .footer-bottom img {
+  display: block;
+  margin-right: 14px;
+}
+.footer .footer-bottom p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 15px;
+}
+.footer .footer-bottom p span {
+  text-decoration: underline;
+}
+.footer .footer-bottom .copyright {
+  margin-left: auto;
+  padding-right: 76px;
 }/*# sourceMappingURL=app.css.map */

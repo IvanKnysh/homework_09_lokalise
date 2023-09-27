@@ -1,0 +1,73 @@
+.footer {
+	background-color: $light-gray;
+	.footer-general {
+		padding-top: 92px;
+		padding-bottom: 95px;
+		display: flex;
+		.block {
+			width: 300px;
+			h2 {
+				@include heading(2.5rem, 50px);
+				margin-bottom: 28px;
+			}
+			p {
+				@include description(1.25rem, 30px);
+				margin-bottom: 15px;
+			}
+			a {
+				@include heading(1.25rem, 30px);
+				text-decoration: none;
+				color: $dark;
+			}
+			img {
+				display: block;
+				&.case-studies {
+					margin-bottom: 31px;
+				}
+				&.spesialized {
+					margin-bottom: 11px;
+				}
+			}
+		}
+		.links-wrapper {
+			width: calc(100% - 300px);
+			display: flex;
+			justify-content: space-between;
+			padding-left: 140px;
+			.links-block {
+				max-width: 187px;
+				h3 {
+					@include heading(1.25rem, 25px);
+					margin-bottom: 21px;
+				}
+				a {
+					@include description(0.938rem, 15px);
+					display: block;
+					text-decoration: none;
+					color: $dark;
+					margin-bottom: 15px;
+					&:nth-last-child(1) {
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	.footer-bottom {
+		display: flex;
+		align-items: center;
+		padding: 48px 0;
+		border-top: 1px solid $dark;
+		img {
+			display: block;
+			margin-right: 14px;
+		}
+		p {
+			@include description(0.75rem, 15px);
+		}
+		.copyright {
+			margin-left: auto;
+			padding-right: 76px;
+		}
+	}
+}
