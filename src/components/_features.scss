@@ -12,13 +12,8 @@
 				margin-bottom: 30px;
 			}
 			p {
-				font-size: 1.25rem;
-				font-weight: 400;
-				line-height: 30px;
+				@include description;
 				margin-bottom: 30px;
-				span {
-					text-decoration: underline;
-				}
 			}
 			a {
 				font-size: 1.25rem;
