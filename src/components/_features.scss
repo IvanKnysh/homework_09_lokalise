@@ -15,10 +15,14 @@
 				@include description(1.25rem, 30px);
 				margin-bottom: 30px;
 			}
-			a {
+			a.start-now {
 				@include heading(1.25rem, 30px);
 				color: $dark;
 				text-decoration: none;
+				transition: color 0.3s;
+				&:hover {
+					color: $main;
+				}
 			}
 			img {
 				display: block;

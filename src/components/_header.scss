@@ -27,6 +27,10 @@
 					line-height: 20px;
 					text-decoration: none;
 					margin-right: 57px;
+					transition: color 0.3s;
+					&:hover {
+						color: $main;
+					}
 				}
 				&:nth-last-child(1) {
 					a {
@@ -39,10 +43,18 @@
 			&.login {
 				@include button-transparent(120px, 45px);
 				margin-left: auto;
+				transition: background-color 0.3s;
+				&:hover {
+					background-color: $main;
+				}
 			}
 			&.try-free {
 				@include button-filled(120px, 45px);
 				margin-left: 10px;
+				transition: background-color 0.3s;
+				&:hover {
+					background-color: $dark;
+				}
 			}
 		}
 	}

@@ -18,6 +18,10 @@
 				@include heading(1.25rem, 30px);
 				text-decoration: none;
 				color: $dark;
+				transition: color 0.3s;
+				&:hover {
+					color: $main;
+				}
 			}
 			img {
 				display: block;
@@ -46,8 +50,12 @@
 					text-decoration: none;
 					color: $dark;
 					margin-bottom: 15px;
+					transition: color 0.3s;
 					&:nth-last-child(1) {
 						margin-bottom: 0;
+					}
+					&:hover {
+						color: $main;
 					}
 				}
 			}

@@ -17,5 +17,9 @@
 	button {
 		@include button-filled(193px, 60px);
 		margin: auto;
+		transition: background-color 0.3s;
+		&:hover {
+			background-color: $dark;
+		}
 	}
 }

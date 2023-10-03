@@ -78,6 +78,10 @@ body {
   line-height: 20px;
   text-decoration: none;
   margin-right: 57px;
+  transition: color 0.3s;
+}
+.header .flx ul li a:hover {
+  color: #ff6336;
 }
 .header .flx ul li:nth-last-child(1) a {
   margin-right: 0;
@@ -90,6 +94,10 @@ body {
   color: #000000;
   font-size: 1rem;
   margin-left: auto;
+  transition: background-color 0.3s;
+}
+.header .flx button.login:hover {
+  background-color: #ff6336;
 }
 .header .flx button.try-free {
   width: 120px;
@@ -99,6 +107,10 @@ body {
   color: #ffffff;
   font-size: 1rem;
   margin-left: 10px;
+  transition: background-color 0.3s;
+}
+.header .flx button.try-free:hover {
+  background-color: #000000;
 }
 
 .hero {
@@ -121,8 +133,13 @@ body {
   line-height: 35px;
   margin-bottom: 50px;
 }
-.hero .flx .block h2 span {
+.hero .flx .block h2 a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.hero .flx .block h2 a:hover {
+  color: #ff6336;
 }
 .hero .flx .block p {
   font-size: 0.938rem;
@@ -140,6 +157,10 @@ body {
   color: #ffffff;
   font-size: 1rem;
   margin-right: 10px;
+  transition: background-color 0.3s;
+}
+.hero .flx .block .bth-wrapper button.try-free:hover {
+  background-color: #000000;
 }
 .hero .flx .block .bth-wrapper button.demo {
   width: 160px;
@@ -148,6 +169,10 @@ body {
   background: transparent;
   color: #000000;
   font-size: 1rem;
+  transition: background-color 0.3s;
+}
+.hero .flx .block .bth-wrapper button.demo:hover {
+  background-color: #ff6336;
 }
 .hero .flx .block img {
   display: block;
@@ -199,15 +224,24 @@ body {
   line-height: 30px;
   margin-bottom: 30px;
 }
-.features .flx-wrapper .block p span {
+.features .flx-wrapper .block p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
 }
-.features .flx-wrapper .block a {
+.features .flx-wrapper .block p a:hover {
+  color: #ff6336;
+}
+.features .flx-wrapper .block a.start-now {
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 30px;
   color: #000000;
   text-decoration: none;
+  transition: color 0.3s;
+}
+.features .flx-wrapper .block a.start-now:hover {
+  color: #ff6336;
 }
 .features .flx-wrapper .block img {
   display: block;
@@ -259,8 +293,13 @@ body {
   line-height: 25px;
   text-align: center;
 }
-.localize .flx-wrapper .block p span {
+.localize .flx-wrapper .block p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.localize .flx-wrapper .block p a:hover {
+  color: #ff6336;
 }
 .localize .flx-wrapper .block img {
   display: block;
@@ -302,13 +341,22 @@ body {
   line-height: 30px;
   margin-bottom: 25px;
 }
-.boost .flx-wrapper .block p span {
+.boost .flx-wrapper .block p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.boost .flx-wrapper .block p a:hover {
+  color: #ff6336;
 }
 .boost .flx-wrapper .block a {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #000000;
   line-height: 30px;
+  transition: color 0.3s;
+}
+.boost .flx-wrapper .block a:hover {
+  color: #ff6336;
 }
 
 .quote {
@@ -327,8 +375,13 @@ body {
   padding-top: 10px;
   margin-bottom: 23px;
 }
-.quote .flx-wrapper .block h3 span {
+.quote .flx-wrapper .block h3 a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.quote .flx-wrapper .block h3 a:hover {
+  color: #ff6336;
 }
 .quote .flx-wrapper .block p {
   font-size: 0.938rem;
@@ -336,8 +389,13 @@ body {
   line-height: 25px;
   margin-bottom: 7px;
 }
-.quote .flx-wrapper .block p span {
+.quote .flx-wrapper .block p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.quote .flx-wrapper .block p a:hover {
+  color: #ff6336;
 }
 .quote .flx-wrapper .block img {
   display: block;
@@ -401,8 +459,13 @@ body {
   text-align: center;
   margin-bottom: 25px;
 }
-.integrate p span {
+.integrate p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.integrate p a:hover {
+  color: #ff6336;
 }
 .integrate img {
   display: block;
@@ -416,6 +479,10 @@ body {
   color: #ffffff;
   font-size: 1rem;
   margin: auto;
+  transition: background-color 0.3s;
+}
+.integrate button:hover {
+  background-color: #000000;
 }
 
 .try-it-free {
@@ -437,8 +504,13 @@ body {
   text-align: center;
   margin-bottom: 54px;
 }
-.try-it-free p span {
+.try-it-free p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.try-it-free p a:hover {
+  color: #ff6336;
 }
 .try-it-free button {
   width: 160px;
@@ -449,6 +521,10 @@ body {
   font-size: 1rem;
   background-color: #000000;
   margin: 0 auto;
+  transition: background-color 0.3s;
+}
+.try-it-free button:hover {
+  background-color: #ff6336;
 }
 
 .footer {
@@ -474,8 +550,13 @@ body {
   line-height: 30px;
   margin-bottom: 15px;
 }
-.footer .footer-general .block p span {
+.footer .footer-general .block p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.footer .footer-general .block p a:hover {
+  color: #ff6336;
 }
 .footer .footer-general .block a {
   font-size: 1.25rem;
@@ -483,6 +564,10 @@ body {
   line-height: 30px;
   text-decoration: none;
   color: #000000;
+  transition: color 0.3s;
+}
+.footer .footer-general .block a:hover {
+  color: #ff6336;
 }
 .footer .footer-general .block img {
   display: block;
@@ -516,12 +601,21 @@ body {
   text-decoration: none;
   color: #000000;
   margin-bottom: 15px;
+  transition: color 0.3s;
 }
-.footer .footer-general .links-wrapper .links-block a span {
+.footer .footer-general .links-wrapper .links-block a a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.footer .footer-general .links-wrapper .links-block a a:hover {
+  color: #ff6336;
 }
 .footer .footer-general .links-wrapper .links-block a:nth-last-child(1) {
   margin-bottom: 0;
+}
+.footer .footer-general .links-wrapper .links-block a:hover {
+  color: #ff6336;
 }
 .footer .footer-bottom {
   display: flex;
@@ -538,8 +632,13 @@ body {
   font-weight: 400;
   line-height: 15px;
 }
-.footer .footer-bottom p span {
+.footer .footer-bottom p a {
+  color: #000000;
   text-decoration: underline;
+  transition: color 0.3s;
+}
+.footer .footer-bottom p a:hover {
+  color: #ff6336;
 }
 .footer .footer-bottom .copyright {
   margin-left: auto;

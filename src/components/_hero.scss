@@ -24,9 +24,17 @@
 					&.try-free {
 						@include button-filled(160px, 60px);
 						margin-right: 10px;
+						transition: background-color 0.3s;
+						&:hover {
+							background-color: $dark;
+						}
 					}
 					&.demo {
 						@include button-transparent(160px, 60px);
+						transition: background-color 0.3s;
+						&:hover {
+							background-color: $main;
+						}
 					}
 				}
 			}

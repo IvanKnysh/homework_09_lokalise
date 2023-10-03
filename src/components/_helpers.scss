@@ -26,7 +26,12 @@
 	font-size: $fontSize;
 	font-weight: 400;
 	line-height: $lineHeight;
-	span {
+	a {
+		color: $dark;
 		text-decoration: underline;
+		transition: color 0.3s;
+		&:hover {
+			color: $main;
+		}
 	}
 }
